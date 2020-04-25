@@ -2,7 +2,7 @@
 
 n=int(input())
 p=input()
-if p.startswith("s") and p.endswith("f"):
+if p.startswith("S") and p.endswith("F"):
     print("YES")
 else:
     print("NO")
