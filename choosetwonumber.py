@@ -1,0 +1,7 @@
+n=int(input())
+p=set(map(int,input().split()))
+m=int(input())
+q=set(map(int,input().split()))
+p=sorted(p)
+q=sorted(q)
+print(p[-1], q[-1])
